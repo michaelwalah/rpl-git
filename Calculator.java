@@ -18,4 +18,12 @@ class Calculator{
 	public float division(float a, float b){
 		
 	}
+	
+	public float max(float a, float b){
+		if(a>b){
+			return a;
+		}else{
+			return b;
+		}
+	}
 }
